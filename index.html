@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <title>covid-19</title>
+</head>
+<body>
+    <h1>This Is Corona Time </h1>
+    <div class="chart">
+    <div class="chart1">
+    <canvas id="myChart" width="600" height="170"></canvas>
+     </div>
+    </div>
+    <div class="status">
+        <input type="button" id="deaths" class="btn" value="Number of Deaths">
+        <input type="button" id="confirmed" class="btn" value="Confirmed Cases">
+        <input type="button" id="recovered" class="btn" value="Number of recovered">
+        <input type="button" id="critical" class="btn" value="Number of critical condition">
+        
+    </div>
+    <div id="continents">
+        <input type="button" id="world" class="regions" value="World">
+        <input type="button" id="asia" class="regions" value="Asia">
+        <input type="button" id="europe" class="regions" value="Europe">
+        <input type="button" id="africa" class="regions" value="Africa">
+        <input type="button" id="americas" class="regions" value="Americas">
+    </div>
+    <div class="countries"></div>
+    <div class="countries-div"></div>
+    <br><br>
+    <script src="index.js"></script>
+</body>
+</html>
